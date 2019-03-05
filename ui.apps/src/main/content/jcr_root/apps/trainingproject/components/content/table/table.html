@@ -1,0 +1,15 @@
+<div data-sly-test="${wcmmode.edit}" class="cq-placeholder"
+     data-emptytext="${component.properties[emptyTextByNode] || component.properties[emptyTextByTemplate] || component.properties.jcr:title}"></div>
+
+<!--START Table Component -->
+<div class="table-component mvp2">
+    <!-- START Table Container-->
+    <div data-sly-text="${properties.tableData @ context='html'}"
+         data-sly-attribute.class="${properties.css} table table-striped table-bordered __table"
+         id="table_${properties.jcr:created.timeInMillis}">
+    </div>
+    <!-- END Table Container-->
+    <input class="table-sort_option" name="table-sort_option" type="hidden" value="${properties.sortable}" />
+    <sly data-sly-test="${properties.sortable}"></sly>
+</div>
+<!--END Table Component -->

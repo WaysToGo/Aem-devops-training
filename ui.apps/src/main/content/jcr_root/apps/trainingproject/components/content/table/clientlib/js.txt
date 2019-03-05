@@ -1,0 +1,2 @@
+js/sorting-table.js
+js/table.js
