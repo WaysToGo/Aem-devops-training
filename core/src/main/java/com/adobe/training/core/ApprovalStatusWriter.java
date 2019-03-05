@@ -19,7 +19,7 @@ import org.osgi.framework.Constants;
 				       Constants.SERVICE_VENDOR + "=Adobe",
 				       "process.label=Approval Status Writer"
 		   })
-//this is for jenkins  sssAAAAA
+//this is for jenkins 
 public class ApprovalStatusWriter implements WorkflowProcess {
 
 	private static final String TYPE_JCR_PATH = "JCR_PATH";
