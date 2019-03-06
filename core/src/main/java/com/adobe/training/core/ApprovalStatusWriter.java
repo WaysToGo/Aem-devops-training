@@ -20,6 +20,9 @@ import org.osgi.framework.Constants;
 				       "process.label=Approval Status Writer"
 		   })
 //this is for jenkins 
+
+
+//for checking build
 public class ApprovalStatusWriter implements WorkflowProcess {
 
 	private static final String TYPE_JCR_PATH = "JCR_PATH";
